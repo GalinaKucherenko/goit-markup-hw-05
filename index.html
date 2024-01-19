@@ -306,8 +306,9 @@
                 <div class="footer-subscribe">
                     <p class="subscribe">Subscribe</p>
                     <form class="footer-form">
-                        <label for="email" class="footer-label"></label>
-                        <input class="input-footer" type="email" name="e-mail" id="email" placeholder="E-mail">
+                        <label for="email" class="footer-label">
+                            <input class="input-footer" type="email" name="e-mail" id="email" placeholder="E-mail">
+                        </label>
                         <button class="footer-btn" type="submit">Subscribe
                             <svg width="24" height="24" class="svg-btn-ftr"><use href="./images/icons.svg#icon-footer-fly"></use> </svg>
                         </button>
@@ -325,7 +326,7 @@
                     <div class="modal-field">
                         <label for="user-name" class="label">Name</label>
                         <div class="modal-input-wrap">
-                            <input type="text" name="name" class="modal-input" id="user-name">
+                            <input type="text" name="user-name" class="modal-input" id="user-name">
                             <svg width="18" height="24" class="modal-icon"><use href="./images/icons.svg#icon-name"></use></svg>
                         </div>
                     </div>
@@ -343,14 +344,14 @@
                             <svg width="18" height="24" class="modal-icon"><use href="./images/icons.svg#icon-email"></use></svg>
                         </div>
                     </div>
-                    <div class="modal-field">
+                    <div class="modal-textarea">
                         <label for="user-comment" class="label">Comment</label>
                         <textarea name="user-comment" id="user-comment" class="modal-comment" placeholder="Text input"></textarea>
                     </div>
                     <div class="modal-checkbox">
-                            <input type="checkbox" name="policy" id="user-privacy" class="check-input visually-hidden"  value="true">
+                            <input type="checkbox" name="user-privacy" id="user-privacy" class="check-input visually-hidden"  value="true">
                         <label for="user-privacy" class="check-label">
-                            <span>
+                            <span class="checkbox-span">
                                 <svg width="10" height="8" class="span-icon"><use href="./images/icons.svg#icon-property-1click-1"></use></svg>
                             </span>
                             I accept the terms and conditions of the <a class="label-link" href="">Privacy Policy</a></label>
