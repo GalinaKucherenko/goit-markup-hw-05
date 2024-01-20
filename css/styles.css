@@ -165,9 +165,7 @@ img {
 }
 
 /* ----------Main---------- */
-.main {
-    
-}
+
 .main-title-frame {
     background: #2E2F42;
     padding: 188px 0;
@@ -176,7 +174,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px;
+    width: 100%;
 }
 .main-title {
     color: #FFF;
@@ -354,7 +352,7 @@ img {
     color: #F4F4FD;
     display: flex;
     align-items: center;
-    padding: 40px 32px;
+    padding: 40px 32px 164px 32px;
     background-color: #4D5AE5;
     height: 100%;
     width: 100%;
@@ -382,7 +380,7 @@ img {
 }
 .footer-container {
     display: flex;
-    align-items: baseline
+    align-items: baseline;
 }
 .ftr-link-soc {
     margin-right: 120px
@@ -405,6 +403,9 @@ img {
     color: #FFF;
     width: 264px;
     margin-top: 16px;
+}
+.ftr-text-icon {
+    margin-right: 80px;
 }
 .soc-media {
     font-weight: 500;
@@ -441,23 +442,17 @@ img {
 .footer-icon {
     fill: #f4f4fd;
 }
-.footer-subscribe {
-    
-}
+
 .subscribe {
     color: #FFF;
     font-weight: 500;
     margin-bottom: 16px;
-    margin-left: 80px;
 }
 .footer-form {
     display: flex;
     gap: 24px;
-    margin-left: 80px;
 }
-.footer-label {
 
-}
 .input-footer {
     padding-left: 16px;
     background-color: transparent;
@@ -474,10 +469,6 @@ img {
 .input-footer::placeholder {
     color: #ffffff;
 }
-.svg-btn-ftr {
-    margin-left: 16px;
-}
-
 .footer-btn {
     display: flex;
     color: #FFF;
@@ -489,6 +480,9 @@ img {
     min-width: 165px;
     height: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-btn-ftr {
+    margin-left: 16px;
 }
 .footer-btn:hover {
     background: #404BBF;
@@ -561,7 +555,6 @@ img {
     text-align: center;
     font-weight: 500;
     margin-bottom: 16px;
-    margin-top: 24px;
 }
 .modal-input-wrap {
     position: relative;
